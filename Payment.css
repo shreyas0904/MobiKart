@@ -1,0 +1,87 @@
+﻿/* Reset some default browser styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+nav ul {
+    list-style: none;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.payment-container {
+    max-width: 400px;
+    margin: 50px 80px;
+    padding: 20px;
+    border-radius:10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.payment-form {
+    text-align: left;
+}
+
+    .payment-form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.pay-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+    .pay-button:hover {
+        background-color: #555;
+    }
+
+.cancel-button {
+    background-color: #fc3434;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+    .cancel-button:hover {
+        background-color: #ff6a6a;
+    }

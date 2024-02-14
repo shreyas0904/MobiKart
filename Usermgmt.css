@@ -1,0 +1,86 @@
+﻿/* Reset some default browser styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+nav ul {
+    list-style: none;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.form-group {
+    margin: 10px 0;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.admin-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .admin-button:hover {
+        background-color: #555;
+    }
+
+.deets {
+    display:flex;
+    justify-content:center;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}

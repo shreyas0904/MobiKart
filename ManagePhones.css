@@ -1,0 +1,135 @@
+﻿/* Reset some default browser styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+nav ul {
+    list-style: none;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.form-group {
+    margin: 10px 0;
+}
+
+.form-input {
+    width: 10%;
+    padding: 10px;
+    font-size: 1rem;
+
+}.delete-input {
+    width: 30%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.admin-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius:10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .admin-button:hover {
+        background-color: #555;
+    }
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 55%;
+}
+    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 11px 16px;
+        outline: 0;
+        border: 0px solid #000000;
+        border-radius: 10px;
+        background: #e6e6e6;
+        color: #7b7b7b;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+
+        .select select:hover,
+            .select select:focus {
+                color: #000000;
+                background: #cccccc;
+            }
+
+            .select select:disabled {
+                opacity: 0.5;
+                pointer-events: none;
+            }
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    width: 0px;
+    height: 0px;
+    border: solid #7b7b7b;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-color: #000000;
+}
+
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}

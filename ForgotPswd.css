@@ -1,0 +1,74 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color:gray;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#txtPass {
+    width: 80%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#txtCPass {
+    width: 80%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btnVerify {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 68%;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .btnVerify:hover {
+        background-color: #0056b3;
+    }
+
+.btnConf {
+    background-color: #11d61f;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .btnConf:hover {
+        background-color: #0eab19;
+    }
